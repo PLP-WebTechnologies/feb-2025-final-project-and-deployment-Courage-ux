@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease;
+  }
+  
+  header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: teal;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Dark mode styles */
+  body.dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+  
